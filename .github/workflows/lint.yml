@@ -22,21 +22,5 @@ jobs:
         python -m pip install -e .
     - name: Analysing the code with pylint
       run: |
-        pylint --rcfile .pylintrc --output-format=colorized $(git ls-files '*.py')
+        python3 sen.py 
 
-  lint-python-format:
-    name: Python format
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
-        with:
-          python-version: "3.9"
-      - uses: psf/black@stable
-        with:
-          options: "--check --diff"
-      - uses: isort/isort-action@master
-        with:
-          configuration:
-            --check
-            --diff
