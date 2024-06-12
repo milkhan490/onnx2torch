@@ -1,4 +1,5 @@
-import sys,os,functools
+import sys,os,mmap
+h=17
 k=11
 j=5
 p=17
