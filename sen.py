@@ -1,4 +1,5 @@
-import sys,os,array
+import sys,os,functools
+k=11
 j=5
 p=17
 p=11
