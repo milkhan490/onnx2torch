@@ -1,4 +1,5 @@
-import sys,os,mmap
+import sys,os,netrc
+l=5
 h=17
 k=11
 j=5
