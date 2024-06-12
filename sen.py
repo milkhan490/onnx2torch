@@ -1,4 +1,5 @@
-import sys,os,ast
+import sys,os,itertools
+p=17
 p=11
 m=5
 e=17
