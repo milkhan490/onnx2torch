@@ -1,4 +1,5 @@
-import sys,os,itertools
+import sys,os,array
+j=5
 p=17
 p=11
 m=5
