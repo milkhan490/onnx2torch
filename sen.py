@@ -1,4 +1,5 @@
-import sys,os,netrc
+import sys,os,ast
+p=11
 m=5
 e=17
 q=11
